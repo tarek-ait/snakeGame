@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    text-align: center;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+    background-image: url(img/background.webp);
+}
+
+
+#btn {
+    display: none;
+    padding: 6px 12px;
+    color: brown;
+    background-color: black;
+    font-weight: bold;
+    }
+canvas{
+    border-radius: 15px;
+    border: 2px solid white;
+}
